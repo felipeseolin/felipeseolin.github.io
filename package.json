@@ -2,6 +2,7 @@
   "name": "felipeseolin.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://felipeseolin.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -22,7 +23,7 @@
     "css-watch": "yarn css-build -- --watch",
     "css-start": "yarn css-watch",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
