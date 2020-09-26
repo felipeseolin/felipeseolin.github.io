@@ -5,7 +5,7 @@ import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Columns from 'react-bulma-components/lib/components/columns';
 
-import { Emoji } from '../../../../components';
+import { Emoji, Project } from '../../../../components';
 
 export const Projects = () => (
   <Section id="projects" className="has-text-centered">
@@ -18,17 +18,9 @@ export const Projects = () => (
       </Heading>
 
       <Columns>
-        <Columns.Column backgroundColor="primary" size={4}>
-          <p>teste</p>
-        </Columns.Column>
-
-        <Columns.Column backgroundColor="primary" size={4}>
-          <p>teste</p>
-        </Columns.Column>
-
-        <Columns.Column backgroundColor="primary" size={4}>
-          <p>teste</p>
-        </Columns.Column>
+        <Project />
+        <Project />
+        <Project />
       </Columns>
     </Container>
   </Section>

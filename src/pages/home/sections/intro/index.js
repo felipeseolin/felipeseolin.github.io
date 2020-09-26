@@ -3,7 +3,6 @@ import React from 'react';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
-import Button from 'react-bulma-components/lib/components/button';
 
 import { Emoji } from '../../../../components/emoji';
 

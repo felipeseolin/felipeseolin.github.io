@@ -64,7 +64,7 @@ export const Techs = () => {
                 <hr />
 
                 <p>
-                  Dart, Flutter, Swift, Objective-C, Jenkis, Kotlin, NextJS,
+                  Swift, Objective-C, Dart, Flutter, Jenkis, Kotlin, NextJS,
                   VueJS, Kubernetes, GithbuActions, Django, Google Cloud, AWS.
                 </p>
               </Columns.Column>
