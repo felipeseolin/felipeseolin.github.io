@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Navbar from 'react-bulma-components/lib/components/navbar';
+import { Link } from 'react-scroll';
 
 import {
   Dev,
@@ -34,10 +35,54 @@ export const MainNavbar = () => {
       </Navbar.Brand>
       <Navbar.Menu>
         <Navbar.Container className="navbar-start">
-          <Navbar.Item href="#header">Home</Navbar.Item>
-          <Navbar.Item href="#intro">About Me</Navbar.Item>
-          <Navbar.Item href="#techs">Technologies</Navbar.Item>
-          <Navbar.Item href="#projects">Projects</Navbar.Item>
+          {/* Home */}
+          <Link
+            activeClass="active"
+            to="header"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Home
+          </Link>
+          {/* About Me */}
+          <Link
+            activeClass="active"
+            to="intro"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            About Me
+          </Link>
+          {/* Tech */}
+          <Link
+            activeClass="active"
+            to="techs"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Technologies
+          </Link>
+          {/* Projects */}
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Projects
+          </Link>
         </Navbar.Container>
         <Navbar.Container position="end">
           <Linkedin isNavbarItem />
