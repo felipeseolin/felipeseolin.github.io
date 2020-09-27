@@ -8,16 +8,15 @@ import Columns from 'react-bulma-components/lib/components/columns';
 
 import { Emoji } from '../../../../components/emoji';
 
-import ap from '../../../../assets/ap.png';
-import ed from '../../../../assets/ecodelta.png';
+import ap from '../../../../assets/logos/ap.png';
+import ed from '../../../../assets/logos/ecodelta.png';
 
 import './styles.sass';
-import utfpr from '../../../../assets/utfpr.png';
 
 export const Volunteer = () => (
   <Section
     id="volunteer"
-    size="small"
+    size="medium"
     className="has-text-centered has-text-dark has-background-primary"
   >
     <Container>

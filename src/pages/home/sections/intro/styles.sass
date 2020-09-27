@@ -1,7 +1,10 @@
 @import "src/variables"
 
+$break-point: 1023px
+
 #intro
   background-color: $primary
-  margin-bottom: 2rem
   a
     color: $darker-coral-blue
+  @media (max-width: $break-point)
+    margin-bottom: 2.5rem

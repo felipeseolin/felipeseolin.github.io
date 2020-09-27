@@ -8,16 +8,16 @@ import Columns from 'react-bulma-components/lib/components/columns';
 
 import { Emoji } from '../../../../components/emoji';
 
-import remsoft from '../../../../assets/remsoft.png';
-import ibs from '../../../../assets/ibs.png';
-import utfpr from '../../../../assets/utfprPreto.png';
+import remsoft from '../../../../assets/logos/remsoft.png';
+import ibs from '../../../../assets/logos/ibs.png';
+import utfpr from '../../../../assets/logos/utfprPreto.png';
 
 import './styles.sass';
 
 export const Work = () => (
   <Section
     id="work"
-    size="small"
+    size="medium"
     className="has-text-centered has-text-dark has-background-primary"
   >
     <Container>
@@ -97,7 +97,7 @@ export const Work = () => (
               >
                 COGETI - UTFPR
               </a>{' '}
-              - Remote
+              - Cornélio Procópio, Paraná, Brazil
             </p>
             <p>
               PHP, HTML, CSS, JS, JQuery, Propel, PostgreSQL,DOMPDF, Angular 7,

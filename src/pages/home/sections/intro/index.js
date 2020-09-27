@@ -6,7 +6,7 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Button from 'react-bulma-components/lib/components/button';
 
 import { Emoji } from '../../../../components/emoji';
-import CV from '../../../../assets/CV.pdf';
+import CV from '../../../../data/CV.pdf';
 
 import './styles.sass';
 

@@ -5,3 +5,4 @@ export * from './projects';
 export * from './education';
 export * from './work';
 export * from './volunteer';
+export * from './design';

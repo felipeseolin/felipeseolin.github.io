@@ -7,14 +7,14 @@ import Content from 'react-bulma-components/lib/components/content';
 import Columns from 'react-bulma-components/lib/components/columns';
 
 import { Emoji } from '../../../../components/emoji';
-import utfpr from '../../../../assets/utfpr.png';
-import pap from '../../../../assets/pap.jpg';
+import utfpr from '../../../../assets/logos/utfprPreto.png';
+import pap from '../../../../assets/logos/pap.jpg';
 import './styles.sass';
 
 export const Education = () => (
   <Section
     id="education"
-    size="small"
+    size="medium"
     className="has-text-centered has-text-dark has-background-primary"
   >
     <Container>

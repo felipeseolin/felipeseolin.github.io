@@ -7,10 +7,10 @@ import Columns from 'react-bulma-components/lib/components/columns';
 
 import { Emoji, Project } from '../../../../components';
 
-import oldPortfolio from '../../../../assets/oldPortfolio.png';
-import tvUtfpr from '../../../../assets/tvUtfpr.png';
-import platformGame from '../../../../assets/platformGame.png';
-import abrindoPortas from '../../../../assets/abrindoPortas.png';
+import oldPortfolio from '../../../../assets/projs/oldPortfolio.png';
+import tvUtfpr from '../../../../assets/projs/tvUtfpr.png';
+import platformGame from '../../../../assets/projs/platformGame.png';
+import abrindoPortas from '../../../../assets/projs/abrindoPortas.png';
 
 export const Projects = () => (
   <Section id="projects" className="has-text-centered has-background-light">

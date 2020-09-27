@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import { FaGitlab } from 'react-icons/fa';
 
-import { gitlab } from '../../../../assets/socialLinks.json';
+import { gitlab } from '../../../../data/socialLinks.json';
 
 export const Gitlab = ({ isNavbarItem }) => {
   const AGitlab = () => (

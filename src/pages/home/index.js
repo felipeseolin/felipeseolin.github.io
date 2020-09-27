@@ -9,6 +9,7 @@ import {
   Education,
   Work,
   Volunteer,
+  Design,
 } from './sections';
 
 export const Home = () => (
@@ -22,6 +23,7 @@ export const Home = () => (
     <Education />
     <Work />
     <Volunteer />
+    <Design />
 
     <MainFooter />
   </>

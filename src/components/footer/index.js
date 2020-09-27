@@ -7,12 +7,12 @@ import Footer from 'react-bulma-components/lib/components/footer';
 import Button from 'react-bulma-components/lib/components/button';
 
 import { SocialLinks } from '../socialLinks';
-import CV from '../../assets/CV.pdf';
+import CV from '../../data/CV.pdf';
 
 import './styles.sass';
 
 export const MainFooter = () => (
-  <Footer renderAs="footer" className="has-background-primary">
+  <Footer id="main-footer" renderAs="footer" className="has-background-primary">
     <Container className="has-text-light">
       <Content style={{ textAlign: 'center' }}>
         <Heading

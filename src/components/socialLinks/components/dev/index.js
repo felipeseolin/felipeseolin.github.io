@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import { FaDev } from 'react-icons/fa';
 
-import { dev } from '../../../../assets/socialLinks.json';
+import { dev } from '../../../../data/socialLinks.json';
 
 export const Dev = ({ isNavbarItem }) => {
   const ADev = () => (

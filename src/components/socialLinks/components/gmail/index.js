@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import { SiGmail } from 'react-icons/all';
 
-import { gmail } from '../../../../assets/socialLinks.json';
+import { gmail } from '../../../../data/socialLinks.json';
 
 export const Gmail = ({ isNavbarItem }) => {
   const AGmail = () => (
