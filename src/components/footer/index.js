@@ -4,8 +4,11 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Content from 'react-bulma-components/lib/components/content';
 import Container from 'react-bulma-components/lib/components/container';
 import Footer from 'react-bulma-components/lib/components/footer';
+import Button from 'react-bulma-components/lib/components/button';
 
 import { SocialLinks } from '../socialLinks';
+import CV from '../../assets/CV.pdf';
+
 import './styles.sass';
 
 export const MainFooter = () => (
@@ -26,9 +29,20 @@ export const MainFooter = () => (
         >
           Personal website that is always in construction
         </Heading>
+        <Button
+          outlined
+          renderAs="a"
+          color="light"
+          href={CV}
+          target="_blank"
+          className="has-text-light"
+          style={{ marginBottom: '18px' }}
+        >
+          Download my CV
+        </Button>
         <SocialLinks />
         <div className="made-by-bulma">
-          <a href="https://bulma.io">
+          <a href="https://bulma.io" target="_blank">
             <img
               src="https://bulma.io/images/made-with-bulma--white.png"
               alt="Made with Bulma"

@@ -3,8 +3,10 @@ import React from 'react';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Heading from 'react-bulma-components/lib/components/heading';
+import Button from 'react-bulma-components/lib/components/button';
 
 import { Emoji } from '../../../../components/emoji';
+import CV from '../../../../assets/CV.pdf';
 
 import './styles.sass';
 
@@ -43,6 +45,16 @@ export const Intro = () => {
           <a href={urlIbs}>Instituto BioSistemico (IBS)</a>, as a programming
           assistant/junior full-stack programmer.
         </p>
+
+        <Button
+          renderAs="a"
+          color="dark"
+          href={CV}
+          target="_blank"
+          className="has-text-light"
+        >
+          Download my CV
+        </Button>
       </Container>
     </Section>
   );

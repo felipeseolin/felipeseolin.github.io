@@ -9,6 +9,7 @@ import { Emoji, Project } from '../../../../components';
 
 import oldPortfolio from '../../../../assets/oldPortfolio.png';
 import tvUtfpr from '../../../../assets/tvUtfpr.png';
+import platformGame from '../../../../assets/platformGame.png';
 
 export const Projects = () => (
   <Section id="projects" className="has-text-centered has-background-light">
@@ -39,6 +40,13 @@ export const Projects = () => (
         >
           This is my old personal website, that I've made in the discipline of
           web programming
+        </Project>
+        <Project
+          urlBackground={platformGame}
+          urlSource="https://github.com/felipeseolin/platform-game"
+          urlWebsite="https://felipeseolin.github.io/platform-game"
+        >
+          Platform game made for the game development discipline
         </Project>
       </Columns>
     </Container>
