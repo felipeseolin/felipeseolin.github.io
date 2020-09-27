@@ -1,4 +1,5 @@
 $break-point: 769px
+$break-point-mobile: 472px
 
 #design
   margin-top: -8rem
@@ -6,6 +7,8 @@ $break-point: 769px
 
 .react-photo-gallery--gallery img
   max-height: 280px
+  @media (max-width: $break-point-mobile)
+    height: 100% !important
 
 .box .content .columns .column
   padding: 60px 35px
