@@ -23,8 +23,9 @@ export const Projects = () => (
       </Heading>
 
       <Columns className="is-centered">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <Project
+            key={'project-' + index}
             isInConstruction={project.isInConstruction}
             urlWebsite={project.urlWebsite}
             urlBackground={project.urlBackground}
