@@ -10,10 +10,7 @@ import { FaGithub } from 'react-icons/fa';
 
 import { Emoji, Project } from '../../../../components';
 
-import oldPortfolio from '../../../../assets/projs/oldPortfolio.png';
-import tvUtfpr from '../../../../assets/projs/tvUtfpr.png';
-import platformGame from '../../../../assets/projs/platformGame.png';
-import abrindoPortas from '../../../../assets/projs/abrindoPortas.png';
+import projects from '../../../../data/projects';
 
 export const Projects = () => (
   <Section id="projects" className="has-text-centered has-background-light">
@@ -25,37 +22,17 @@ export const Projects = () => (
         Some works that I have done and I've been doing
       </Heading>
 
-      <Columns>
-        <Project
-          isInConstruction
-          urlWebsite="http://abrindoportas.cp.utfpr.edu.br"
-          urlBackground={abrindoPortas}
-        >
-          Voluntary project that teaches English for free to high school
-          students in the town of Cornélio Procópio
-        </Project>
-        <Project
-          urlBackground={tvUtfpr}
-          urlWebsite="https://apoio.cp.utfpr.edu.br/apptv/"
-        >
-          TV system that displays UTFPR campus information, news, forecast, and
-          others
-        </Project>
-        <Project
-          urlBackground={oldPortfolio}
-          urlSource="https://github.com/felipeseolin/portfolio"
-          urlWebsite="https://felipeseolin.github.io/portfolio"
-        >
-          This is my old personal website, that I've made in the discipline of
-          web programming
-        </Project>
-        <Project
-          urlBackground={platformGame}
-          urlSource="https://github.com/felipeseolin/platform-game"
-          urlWebsite="https://felipeseolin.github.io/platform-game"
-        >
-          Platform game made for the game development discipline
-        </Project>
+      <Columns className="is-centered">
+        {projects.map((project) => (
+          <Project
+            isInConstruction={project.isInConstruction}
+            urlWebsite={project.urlWebsite}
+            urlBackground={project.urlBackground}
+            urlSource={project.urlSource}
+          >
+            {project.text}
+          </Project>
+        ))}
       </Columns>
       <Button
         renderAs="a"
