@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2e7f34fb.chunk.css",
-    "main.js": "/static/js/main.b1f4d7f1.chunk.js",
-    "main.js.map": "/static/js/main.b1f4d7f1.chunk.js.map",
+    "main.js": "/static/js/main.714d20f5.chunk.js",
+    "main.js.map": "/static/js/main.714d20f5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.15ef25dd.js",
     "runtime-main.js.map": "/static/js/runtime-main.15ef25dd.js.map",
     "static/css/2.a5ed57c3.chunk.css": "/static/css/2.a5ed57c3.chunk.css",
-    "static/js/2.035b7534.chunk.js": "/static/js/2.035b7534.chunk.js",
-    "static/js/2.035b7534.chunk.js.map": "/static/js/2.035b7534.chunk.js.map",
+    "static/js/2.eef7262a.chunk.js": "/static/js/2.eef7262a.chunk.js",
+    "static/js/2.eef7262a.chunk.js.map": "/static/js/2.eef7262a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0a89ee1242d5baea42e44b28891d06d1.js": "/precache-manifest.0a89ee1242d5baea42e44b28891d06d1.js",
+    "precache-manifest.0a808d4549eb354361fa1f14db2f3fa4.js": "/precache-manifest.0a808d4549eb354361fa1f14db2f3fa4.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a5ed57c3.chunk.css.map": "/static/css/2.a5ed57c3.chunk.css.map",
     "static/css/main.2e7f34fb.chunk.css.map": "/static/css/main.2e7f34fb.chunk.css.map",
-    "static/js/2.035b7534.chunk.js.LICENSE.txt": "/static/js/2.035b7534.chunk.js.LICENSE.txt",
+    "static/js/2.eef7262a.chunk.js.LICENSE.txt": "/static/js/2.eef7262a.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/static/media/CV.1bce6f2a.pdf",
     "static/media/abrindoPortas.png": "/static/media/abrindoPortas.9045ae23.png",
     "static/media/ap.png": "/static/media/ap.73acc719.png",
@@ -33,14 +33,15 @@
     "static/media/pap.jpg": "/static/media/pap.28ddfc58.jpg",
     "static/media/platformGame.png": "/static/media/platformGame.a790a647.png",
     "static/media/remsoft.png": "/static/media/remsoft.ecf22ea6.png",
+    "static/media/seolinflix.jpg": "/static/media/seolinflix.7b32ac6f.jpg",
     "static/media/tvUtfpr.png": "/static/media/tvUtfpr.d976a996.png",
     "static/media/utfprPreto.png": "/static/media/utfprPreto.099753e0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.15ef25dd.js",
     "static/css/2.a5ed57c3.chunk.css",
-    "static/js/2.035b7534.chunk.js",
+    "static/js/2.eef7262a.chunk.js",
     "static/css/main.2e7f34fb.chunk.css",
-    "static/js/main.b1f4d7f1.chunk.js"
+    "static/js/main.714d20f5.chunk.js"
   ]
 }
