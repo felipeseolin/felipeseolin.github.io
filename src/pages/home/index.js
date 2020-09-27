@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MainNavbar } from '../../components';
+import { MainNavbar, MainFooter } from '../../components';
 import { Header, Intro, Techs, Projects } from './sections';
 
 export const Home = () => (
@@ -11,5 +11,7 @@ export const Home = () => (
     <Intro />
     <Techs />
     <Projects />
+
+    <MainFooter />
   </>
 );
