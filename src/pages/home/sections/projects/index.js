@@ -4,6 +4,9 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import Columns from 'react-bulma-components/lib/components/columns';
+import Button from 'react-bulma-components/lib/components/button';
+
+import { FaGithub } from 'react-icons/fa';
 
 import { Emoji, Project } from '../../../../components';
 
@@ -54,6 +57,14 @@ export const Projects = () => (
           Platform game made for the game development discipline
         </Project>
       </Columns>
+      <Button
+        renderAs="a"
+        href="https://github.com/felipeseolin"
+        target="_blank"
+      >
+        <span style={{ marginRight: '4px' }}>View more projects</span>
+        <FaGithub />
+      </Button>
     </Container>
   </Section>
 );
