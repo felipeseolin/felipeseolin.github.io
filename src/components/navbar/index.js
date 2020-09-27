@@ -107,7 +107,7 @@ export const MainNavbar = () => {
           >
             Work
           </Link>
-          {/* Volunteer */}
+          {/* Volunteering */}
           <Link
             activeClass="active"
             to="volunteer"
@@ -118,6 +118,18 @@ export const MainNavbar = () => {
             className="navbar-item"
           >
             Volunteering
+          </Link>
+          {/* Graphic Design */}
+          <Link
+            activeClass="active"
+            to="design"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Design
           </Link>
         </Navbar.Container>
         <Navbar.Container position="end">

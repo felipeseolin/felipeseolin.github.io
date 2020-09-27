@@ -73,7 +73,7 @@ export const Work = () => (
               - Remote
             </p>
             <p>
-              PHP, HTML, CSS, JS, JQuery, MySQL,Bootstrap 3+, SVN, Redmine, and
+              PHP, HTML, CSS, JS, JQuery, MySQL, Bootstrap 3+, SVN, Redmine, and
               others
             </p>
             <p>jan/2020 - apr/2020</p>
