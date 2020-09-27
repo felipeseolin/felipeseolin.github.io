@@ -1,7 +1,15 @@
 import React from 'react';
 
 import { MainNavbar, MainFooter } from '../../components';
-import { Header, Intro, Techs, Projects } from './sections';
+import {
+  Header,
+  Intro,
+  Techs,
+  Projects,
+  Education,
+  Work,
+  Volunteer,
+} from './sections';
 
 export const Home = () => (
   <>
@@ -11,6 +19,9 @@ export const Home = () => (
     <Intro />
     <Techs />
     <Projects />
+    <Education />
+    <Work />
+    <Volunteer />
 
     <MainFooter />
   </>

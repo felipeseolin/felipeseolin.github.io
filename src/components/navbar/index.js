@@ -83,6 +83,42 @@ export const MainNavbar = () => {
           >
             Projects
           </Link>
+          {/* Education */}
+          <Link
+            activeClass="active"
+            to="education"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Education
+          </Link>
+          {/* Work */}
+          <Link
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Work
+          </Link>
+          {/* Volunteer */}
+          <Link
+            activeClass="active"
+            to="volunteer"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="navbar-item"
+          >
+            Volunteering
+          </Link>
         </Navbar.Container>
         <Navbar.Container position="end">
           <Linkedin isNavbarItem />

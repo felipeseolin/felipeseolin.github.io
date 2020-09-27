@@ -10,6 +10,7 @@ import { Emoji, Project } from '../../../../components';
 import oldPortfolio from '../../../../assets/oldPortfolio.png';
 import tvUtfpr from '../../../../assets/tvUtfpr.png';
 import platformGame from '../../../../assets/platformGame.png';
+import abrindoPortas from '../../../../assets/abrindoPortas.png';
 
 export const Projects = () => (
   <Section id="projects" className="has-text-centered has-background-light">
@@ -22,7 +23,11 @@ export const Projects = () => (
       </Heading>
 
       <Columns>
-        <Project urlWebsite="https://abrindoportas.cp.utfpr.edu.br">
+        <Project
+          isInConstruction
+          urlWebsite="http://abrindoportas.cp.utfpr.edu.br"
+          urlBackground={abrindoPortas}
+        >
           Voluntary project that teaches English for free to high school
           students in the town of Cornélio Procópio
         </Project>

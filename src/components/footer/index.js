@@ -42,7 +42,7 @@ export const MainFooter = () => (
         </Button>
         <SocialLinks />
         <div className="made-by-bulma">
-          <a href="https://bulma.io" target="_blank">
+          <a href="https://bulma.io">
             <img
               src="https://bulma.io/images/made-with-bulma--white.png"
               alt="Made with Bulma"
