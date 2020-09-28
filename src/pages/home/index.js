@@ -1,5 +1,7 @@
 import React from 'react';
 
+import initializaGA from '../../google-analytics';
+
 import { MainNavbar, MainFooter } from '../../components';
 import {
   Header,
@@ -12,19 +14,22 @@ import {
   Design,
 } from './sections';
 
-export const Home = () => (
-  <>
-    <MainNavbar />
+export const Home = () => {
+  initializaGA();
+  return (
+    <>
+      <MainNavbar />
 
-    <Header />
-    <Intro />
-    <Techs />
-    <Projects />
-    <Education />
-    <Work />
-    <Volunteer />
-    <Design />
+      <Header />
+      <Intro />
+      <Techs />
+      <Projects />
+      <Education />
+      <Work />
+      <Volunteer />
+      <Design />
 
-    <MainFooter />
-  </>
-);
+      <MainFooter />
+    </>
+  );
+};

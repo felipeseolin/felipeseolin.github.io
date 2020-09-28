@@ -1,3 +1,8 @@
 import ReactGA from 'react-ga';
 
-ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+const initializaGA = () => {
+  ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_ID);
+  ReactGA.pageview('/');
+};
+
+export default initializaGA;
