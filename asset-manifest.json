@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e7f34fb.chunk.css",
-    "main.js": "/static/js/main.fce1976b.chunk.js",
-    "main.js.map": "/static/js/main.fce1976b.chunk.js.map",
+    "main.css": "/static/css/main.96e599e6.chunk.css",
+    "main.js": "/static/js/main.4a304b75.chunk.js",
+    "main.js.map": "/static/js/main.4a304b75.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.15ef25dd.js",
     "runtime-main.js.map": "/static/js/runtime-main.15ef25dd.js.map",
     "static/css/2.a5ed57c3.chunk.css": "/static/css/2.a5ed57c3.chunk.css",
-    "static/js/2.9b7834cf.chunk.js": "/static/js/2.9b7834cf.chunk.js",
-    "static/js/2.9b7834cf.chunk.js.map": "/static/js/2.9b7834cf.chunk.js.map",
+    "static/js/2.88e9bd3d.chunk.js": "/static/js/2.88e9bd3d.chunk.js",
+    "static/js/2.88e9bd3d.chunk.js.map": "/static/js/2.88e9bd3d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.95e671e76fc85e9c30c0be62bdea0401.js": "/precache-manifest.95e671e76fc85e9c30c0be62bdea0401.js",
+    "precache-manifest.d283e0cfc86c17eccf94f09965c0129d.js": "/precache-manifest.d283e0cfc86c17eccf94f09965c0129d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a5ed57c3.chunk.css.map": "/static/css/2.a5ed57c3.chunk.css.map",
-    "static/css/main.2e7f34fb.chunk.css.map": "/static/css/main.2e7f34fb.chunk.css.map",
-    "static/js/2.9b7834cf.chunk.js.LICENSE.txt": "/static/js/2.9b7834cf.chunk.js.LICENSE.txt",
+    "static/css/main.96e599e6.chunk.css.map": "/static/css/main.96e599e6.chunk.css.map",
+    "static/js/2.88e9bd3d.chunk.js.LICENSE.txt": "/static/js/2.88e9bd3d.chunk.js.LICENSE.txt",
     "static/media/CV.pdf": "/static/media/CV.1bce6f2a.pdf",
     "static/media/abrindoPortas.png": "/static/media/abrindoPortas.9045ae23.png",
+    "static/media/ada.png": "/static/media/ada.d7718652.png",
     "static/media/ap.png": "/static/media/ap.73acc719.png",
     "static/media/avatar.png": "/static/media/avatar.82207fd6.png",
     "static/media/design1.jpg": "/static/media/design1.63ed0ec6.jpg",
@@ -34,14 +35,15 @@
     "static/media/platformGame.png": "/static/media/platformGame.a790a647.png",
     "static/media/remsoft.png": "/static/media/remsoft.ecf22ea6.png",
     "static/media/seolinflix.jpg": "/static/media/seolinflix.7b32ac6f.jpg",
+    "static/media/trimble.png": "/static/media/trimble.2da167cd.png",
     "static/media/tvUtfpr.png": "/static/media/tvUtfpr.d976a996.png",
     "static/media/utfprPreto.png": "/static/media/utfprPreto.099753e0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.15ef25dd.js",
     "static/css/2.a5ed57c3.chunk.css",
-    "static/js/2.9b7834cf.chunk.js",
-    "static/css/main.2e7f34fb.chunk.css",
-    "static/js/main.fce1976b.chunk.js"
+    "static/js/2.88e9bd3d.chunk.js",
+    "static/css/main.96e599e6.chunk.css",
+    "static/js/main.4a304b75.chunk.js"
   ]
 }
