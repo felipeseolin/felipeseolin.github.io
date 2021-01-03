@@ -6,7 +6,7 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Content from 'react-bulma-components/lib/components/content';
 import Columns from 'react-bulma-components/lib/components/columns';
 
-import { Emoji } from '../../../../components/emoji';
+import { Emoji } from '../../../../components';
 
 import ap from '../../../../assets/logos/ap.png';
 import ed from '../../../../assets/logos/ecodelta.png';
@@ -16,7 +16,7 @@ import './styles.sass';
 export const Volunteer = () => (
   <Section
     id="volunteer"
-    size="medium"
+    size="small"
     className="has-text-centered has-text-dark has-background-primary"
   >
     <Container>

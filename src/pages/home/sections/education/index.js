@@ -6,15 +6,16 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Content from 'react-bulma-components/lib/components/content';
 import Columns from 'react-bulma-components/lib/components/columns';
 
-import { Emoji } from '../../../../components/emoji';
+import { Emoji } from '../../../../components';
 import utfpr from '../../../../assets/logos/utfprPreto.png';
 import pap from '../../../../assets/logos/pap.jpg';
+import ada from '../../../../assets/logos/ada.png';
 import './styles.sass';
 
 export const Education = () => (
   <Section
     id="education"
-    size="medium"
+    size="small"
     className="has-text-centered has-text-dark has-background-primary"
   >
     <Container>
@@ -22,8 +23,34 @@ export const Education = () => (
         Education <Emoji size={1} symbol="📖" label="Open Book" />
       </Heading>
       <Columns>
+        {/* Apple Developer Academy */}
+        <Columns.Column size={4}>
+          <Content>
+            <img
+              src={ada}
+              alt="Logo da Apple Developer Academy"
+            />
+            <Heading
+              subtitle
+              renderAs="h4"
+              className="has-text-dark has-text-weight-semibold"
+            >
+              Apple Developer Academy - PUCPR
+            </Heading>
+            <p>
+              <a
+                href="http://developeracademy.pucpr.br/processo/"
+                className="has-text-weight-semibold "
+              >
+                PUCPR
+              </a>{' '}
+              - Curitiba, Paraná, Brazil
+            </p>
+            <p>2021 - now</p>
+          </Content>
+        </Columns.Column>
         {/* UTFPR */}
-        <Columns.Column size={6}>
+        <Columns.Column size={4}>
           <Content>
             <img src={utfpr} alt="Logo da UTFPR" />
             <Heading
@@ -46,7 +73,7 @@ export const Education = () => (
           </Content>
         </Columns.Column>
         {/* Passo a Passo */}
-        <Columns.Column size={6}>
+        <Columns.Column size={4}>
           <Content>
             <img
               src={pap}

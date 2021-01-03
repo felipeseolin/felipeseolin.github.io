@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import { FaLinkedinIn } from 'react-icons/fa';
 
-import { linkedin } from '../../../../data/socialLinks.json';
+import { linkedin } from '../../../../assets/data/socialLinks.json';
 
 export const Linkedin = ({ isNavbarItem }) => {
   const ALinkedin = () => (

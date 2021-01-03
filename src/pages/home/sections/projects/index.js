@@ -12,6 +12,8 @@ import { Emoji, Project } from '../../../../components';
 
 import projects from '../../../../data/projects';
 
+import { github } from '../../../../assets/data/socialLinks.json';
+
 export const Projects = () => (
   <Section id="projects" className="has-text-centered has-background-light">
     <Container>
@@ -37,8 +39,10 @@ export const Projects = () => (
       </Columns>
       <Button
         renderAs="a"
-        href="https://github.com/felipeseolin"
+        href={github}
         target="_blank"
+        color="dark"
+        className="has-text-light"
       >
         <span style={{ marginRight: '4px' }}>View more projects</span>
         <FaGithub />

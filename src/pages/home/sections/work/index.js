@@ -6,10 +6,11 @@ import Heading from 'react-bulma-components/lib/components/heading';
 import Content from 'react-bulma-components/lib/components/content';
 import Columns from 'react-bulma-components/lib/components/columns';
 
-import { Emoji } from '../../../../components/emoji';
+import { Emoji } from '../../../../components';
 
 import remsoft from '../../../../assets/logos/remsoft.png';
 import ibs from '../../../../assets/logos/ibs.png';
+import trimble from '../../../../assets/logos/trimble.png';
 import utfpr from '../../../../assets/logos/utfprPreto.png';
 
 import './styles.sass';
@@ -17,7 +18,7 @@ import './styles.sass';
 export const Work = () => (
   <Section
     id="work"
-    size="medium"
+    size="small"
     className="has-text-centered has-text-dark has-background-primary"
   >
     <Container>
@@ -25,8 +26,31 @@ export const Work = () => (
         Work experience <Emoji size={1} symbol="💻" label="Laptop" />
       </Heading>
       <Columns>
+        {/* Trimble */}
+        <Columns.Column size={3}>
+          <Content>
+            <img src={trimble} alt="Logo da Trimble" />
+            <Heading
+              subtitle
+              renderAs="h4"
+              className="has-text-dark has-text-weight-semibold"
+            >
+              JR FullStack Software Engineer
+            </Heading>
+            <p>
+              <a
+                href="https://www.trimble.com/"
+                className="has-text-weight-semibold"
+              >
+                Trimble (Transportation)
+              </a>{' '}
+              - Remote
+            </p>
+            <p>dec/2020 - now</p>
+          </Content>
+        </Columns.Column>
         {/* IBS */}
-        <Columns.Column size={4}>
+        <Columns.Column size={3}>
           <Content>
             <img src={ibs} alt="Logo da IBS" />
             <Heading
@@ -49,11 +73,11 @@ export const Work = () => (
               Angular 8+, NodeJS, AdonisJS, NestJS, PostgreSQL,Firebase, JS, TS,
               Git, Gitlab, HTML, CSS, SASS, and others
             </p>
-            <p>apr/2020 - now</p>
+            <p>apr/2020 - dec/2020</p>
           </Content>
         </Columns.Column>
         {/* RemSoft */}
-        <Columns.Column size={4}>
+        <Columns.Column size={3}>
           <Content>
             <img src={remsoft} alt="Logo da RemSoft" />
             <Heading
@@ -80,7 +104,7 @@ export const Work = () => (
           </Content>
         </Columns.Column>
         {/* COGETI */}
-        <Columns.Column size={4}>
+        <Columns.Column size={3}>
           <Content>
             <img src={utfpr} alt="Logo da UTFPR" />
             <Heading

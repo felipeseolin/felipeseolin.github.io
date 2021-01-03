@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import { FaRocket } from 'react-icons/fa';
 
-import { rocketseat } from '../../../../data/socialLinks.json';
+import { rocketseat } from '../../../../assets/data/socialLinks.json';
 
 export const Rocketseat = ({ isNavbarItem }) => {
   const ARocketseat = () => (

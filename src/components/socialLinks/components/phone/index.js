@@ -3,7 +3,7 @@ import React from 'react';
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import { FaMobileAlt } from 'react-icons/fa';
 
-import { phone } from '../../../../data/socialLinks.json';
+import { phone } from '../../../../assets/data/socialLinks.json';
 
 export const Phone = ({ isNavbarItem }) => {
   const APhone = () => (
